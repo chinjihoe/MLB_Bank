@@ -14,13 +14,11 @@ public class SQLDataBase
     
     public void connectdb()
 	{
-        //String url = "jdbc:mysql://145.24.222.177/banknode";
-        //String user = "atm";
-        //String password = "Emorage00";
+        String url = "jdbc:mysql://145.24.222.177/banknode";
+        String user = "atm";
+        String password = "Emorage00";
         
-        String url = "jdbc:mysql://24.132.52.207/chinji_database2";
-        String user = "chinji";
-        String password = "xnw7ma4boniw";
+     
         try 
         {
 
